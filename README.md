@@ -28,19 +28,15 @@ Extract and Set Up the Environment:
 
 Open a terminal or command prompt on the target machine and navigate to the directory containing the packaged_env.tar.gz file.
 Run the following commands:
-bash
-Copy code
+
 tar -xvzf packaged_env.tar.gz
 conda env create -f packaged_env.yml
 Activate the Environment:
 
-
-Copy code
 conda activate packaged_env
 Verify the Environment: Check if the environment is working correctly:
 
 
-Copy code
 python --version
 The Python version should match the one used during development (e.g., Python 3.9).
 
@@ -56,7 +52,7 @@ Interact with the system by entering your query when prompted:
 
 Example:
 plaintext
-Copy code
+
 Enter your query: What is covered in the AI notes?
 Response: [Generated response based on the input documents]
 How It Works
