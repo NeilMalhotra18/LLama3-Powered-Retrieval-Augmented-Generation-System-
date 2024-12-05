@@ -47,27 +47,32 @@ Run the main script:
 
 
 Copy code
-python rag_system.py
+python rag90.py
 Interact with the system by entering your query when prompted:
 
 Example:
+
 plaintext
 
 Enter your query: What is covered in the AI notes?
 Response: [Generated response based on the input documents]
 How It Works
+
 Data Loading:
 
 Extracts text from multiple document types:
 PDFs: Processes text using pdfplumber.
 Excel Sheets: Reads and converts rows into textual chunks using pandas.
 PowerPoint Presentations: Extracts text from slides using python-pptx.
+
 Embedding Generation:
 
 Text chunks are converted into embeddings using SentenceTransformers (all-MiniLM-L6-v2).
+
 Efficient Retrieval:
 
 FAISS is used to store and search embeddings for relevant chunks based on the query.
+
 Response Generation:
 
 Relevant chunks are passed to the LLaMA3 model to generate accurate and context-aware responses.
