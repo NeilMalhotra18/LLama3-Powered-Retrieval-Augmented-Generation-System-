@@ -8,7 +8,6 @@ Designed for offline deployment, ensuring no external dependencies or internet c
 
 Setup Instructions
 Step 1: Prerequisites
-Ensure you have access to the target machine with 64-bit architecture.
 Make sure Conda is installed on your system. If not, download and install Anaconda.
 
 How to Package the environment?
