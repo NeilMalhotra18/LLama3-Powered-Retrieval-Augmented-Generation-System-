@@ -34,12 +34,12 @@ tar -xvzf packaged_env.tar.gz
 conda env create -f packaged_env.yml
 Activate the Environment:
 
-bash
+
 Copy code
 conda activate packaged_env
 Verify the Environment: Check if the environment is working correctly:
 
-bash
+
 Copy code
 python --version
 The Python version should match the one used during development (e.g., Python 3.9).
@@ -49,7 +49,7 @@ Transfer the project files, including the main Python script (e.g. rag90.py) and
 
 Run the main script:
 
-bash
+
 Copy code
 python rag_system.py
 Interact with the system by entering your query when prompted:
